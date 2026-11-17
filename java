@@ -1,0 +1,128 @@
+Java was created in james gosling in 1991
+1991 : Green project -- james gosling and a small team at sun microsystems explore softeware for consumer devices
+1991 : Named "Oak" --  The new languge is named after an oak tree outside gosling's office
+1992 : Satr7 demo --   A hand 
+1995 : Renamed java 
+1996 : JDK 1.0
+
+
+### 01\. INTRODUCTION TO JAVA
+
+### How Java evolved: 30 years of steady upgrades
+
+### Java Versions and Their Features
+
+1\. Java 1.0 – January 1996
+
+* JVM, core libraries, applets.
+
+* Introduced the concept of "Write Once, Run Anywhere."
+
+2\. Java 5 – September 2004
+
+\- Generics, annotations, enums, enhanced for-loop.
+
+3\. Java 8 – May 2014
+
+\- Lambda expressions, Stream API, new Date/Time API.
+
+4\. Java 11 – September 2018
+
+* First LTS of the 6-month era.
+
+* Standard HTTP Client.
+
+5\. Java 17 – September 2021
+
+* Records, sealed classes, text blocks.
+
+* Spring Boot 3 baseline.
+
+6\. Java 21 – September 2023
+
+\- Virtual threads, pattern matching for switch, record patterns.
+
+7\. Java 25 – September 2025
+
+* Compact source files.
+
+* Scoped values.
+
+* Compact object headers.
+
+### Important Point
+
+LTS (Long-Term Support): A Java version that receives long-term updates and support.
+
+Remember: Java continuously evolved by introducing new features, improving performance, security, and simplifying programming.
+
+
+data types in java
+primitive data types
+1)numerical 
+*Byte
+*int
+*float
+*double
+*short
+*long
+2)non numerical
+boolean
+*true 
+*false
+char
+non premitive
+*string
+*array
+variables rules
+1. Must start with a letter, underscore (_) or dollar sign ($).
+2. Cannot start with a number.
+3. Cannot contain spaces.
+4. Special characters are not allowed, except _ and $.
+5. Java keywords cannot be used as variable names.
+6. Variable names are case-sensitive.
+7. Can contain letters, digits, underscores and dollar signs after the first character.
+8. Variable names can be of any length.
+
+Method Explanation Table
+
+Here is a clean breakdown of the text displayed in the slide:
+
+Scanner Method	Example Input	Return Type	Description
+nextInt()  	      25	int	Reads a whole integer value.
+nextLong()	      9876543210L	long	Reads a large whole integer value.
+nextFloat()	      85.5f	float	Reads a single-precision decimal number.
+nextDouble()	    25000.75	double	Reads a double-precision decimal number.
+next()	          Venu	String	Reads a single word (stops at a space).
+nextLine()	      Hello Java	String	Reads an entire line of text including spaces.
+next().charAt(0)	A	char	Reads a single character by taking the first character of a string.
+nextBoolean()	    true	boolean	Reads a true or false logical value.
+
+arthimetic operators
++,-,*,/,%
+rational operators
+==,!=,<,>,<=,>=
+
+
+1. Conditional Statements
+
+Conditional statements allow a program to make decisions and execute different blocks of code based on whether a condition evaluates to true or false.
+• if: Executes a block of code only if a specified condition is true.
+• if-else: Executes one block of code if the condition is true, and a different block if it is false.
+• else-if ladder: Checks multiple conditions in sequence until one evaluates to true.
+• nested if: Places an if statement inside another if statement to test multiple layers of conditions.
+• switch: Selects one of many code blocks to execute based on the value of a single variable or expression.
+
+2. Looping Statements
+
+Looping statements repeatedly execute a block of code as long as a specified condition remains true.
+• for: Repeats a block of code a specific, predetermined number of times.
+• while: Checks a condition before running the code block, repeating as long as the condition stays true.
+• do-while: Executes the code block at least once before checking the condition to decide whether to repeat.
+
+3. Jumping Statements
+
+Jumping statements alter the normal, sequential flow of a program by transferring control directly to another part of the code.
+• continue: Skips the remaining code in the current iteration of a loop and moves directly to the next iteration.
+• break: Immediately terminates the current loop or switch statement and moves execution to the code following it.
+• return: Exits the current function entirely and optionally sends a value back to the part of the program that called it.
