@@ -28,3 +28,16 @@ public static void main(String args[]){
 
     
 }
+//nested//
+import java.util.*;
+public class nested {
+    public static void main(String[] args) {
+        Scanner obj = new Scanner(System.in);
+        System.out.println("Enter a number");
+        int value1=obj.nextInt();
+        if(value1>=20){
+            System.out.println("condition 2");
+        }
+        System.out.println("condition 1");
+    }
+}
