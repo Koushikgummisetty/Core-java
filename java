@@ -126,3 +126,60 @@ Jumping statements alter the normal, sequential flow of a program by transferrin
 • continue: Skips the remaining code in the current iteration of a loop and moves directly to the next iteration.
 • break: Immediately terminates the current loop or switch statement and moves execution to the code following it.
 • return: Exits the current function entirely and optionally sends a value back to the part of the program that called it.
+Here is the text from the screenshot:
+
+### 1. length()
+Returns the number of characters in a String.
+String s = "Java";
+System.out.println(s.length());
+*Output:* `4`
+
+### 2. charAt()
+Returns the character at a specified index.
+String s = "Java";
+System.out.println(s.charAt(1));
+*Output:* `a`
+
+### 3. toUpperCase()
+Converts all characters into uppercase.
+String s = "java";
+System.out.println(s.toUpperCase());
+
+Here is the text from the screenshot:
+
+### 4. toLowerCase()
+Converts all characters into lowercase.
+String s = "JAVA";
+System.out.println(s.toLowerCase());
+*Output:* `java`
+
+### 5. equals()
+Compares two Strings based on their content.
+String a = "Java";
+String b = "Java";
+
+System.out.println(a.equals(b));
+*Output:* `true`
+
+### 6. equalsIgnoreCase()
+Compares Strings without considering uppercase or lowercase differences.
+// code continues below in next slide
+
+Here is the text from the screenshot:
+
+### 6. equalsIgnoreCase()
+Compares Strings without considering uppercase or lowercase differences.
+String a = "JAVA";
+String b = "java";
+
+System.out.println(a.equalsIgnoreCase(b));
+*Output:* `true`
+
+### 7. contains()
+Checks whether a String contains a particular sequence of characters.
+String s = "Java Programming";
+System.out.println(s.contains("Java"));
+*Output:* `true`
+
+### 8. substring()
+Extracts a part of a String.
